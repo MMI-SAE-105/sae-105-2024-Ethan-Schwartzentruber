@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : SCHWARTZENTRUBER
+- PRÉNOM : ETHAN
+- GROUPE : C1
+- URL du site : https://startling-melba-4d85b9.netlify.app/
+- URL FIGMA : https://www.figma.com/design/1QQdctoVwCErcneEJVjtIv/SAE-103---Ethan-Schwartzentruber_C1?node-id=1-4&t=AnLLmJBOMfxUVPaL-1
 
 ## Sujet
 
