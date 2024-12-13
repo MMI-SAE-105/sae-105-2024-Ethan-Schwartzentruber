@@ -246,3 +246,49 @@ hr {
     margin: 10px 0;
     line-height: 1.5;
 }
+
+.ticket-container {
+    background-color: #A82B2B;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.price-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.price-list li {
+    margin-bottom: 10px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.reserve-button {
+    background-color: #471010;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+    background-color: #5a1515;
+}
