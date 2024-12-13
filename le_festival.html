@@ -11,14 +11,14 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="/assets/Logo.svg" alt="Les Ciné-Échos">
+           <a href="index.html"> <img src="/assets/Logo.svg" alt="Les Ciné-Échos"></a>
         </div>
         <nav class="nav">
             <button id="info-btn" class="icon-button">
                 <img src="/assets/Infos.svg" alt="Info">
             </button>
             <button id="search-btn" class="icon-button">
-                <img src="/assets/search.svg" alt="Recherche">
+                <img src="/assets/recherche.svg" alt="Recherche">
             </button>
             <button id="menu-btn" class="icon-button">
                 <a href="menu.html"> <img src="/assets/menu-open 1.svg"></a>
@@ -56,38 +56,41 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <p>Les Ciné-Échos</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Mentions Légales</a></li>
-                    <li><a href="#">Plan du site</a></li>
-                    <li><a href="#">Contacts & Accès</a></li>
-                </ul>
-            </nav>
-            <div class="social-media">
-                <img src="/assets/instagram 1.svg" alt="logo instagram">
-                <img src="/assets/X.svg" alt="Logo X">
-                <img src="/assets/facebook 1.svg" alt="logo facebook">
-                <img src="/assets/youtube 1.svg" alt="Logo youtube">
+    <footer>
+        <div class="logo">
+            <img src="/assets/Logo.svg" alt="Logo du site">
+        </div>
+    
+        <hr>
+    
+        <nav class="menu">
+            <h3>Menu</h3>
+            <a href="#">Mentions légales</a>
+            <a href="#">Archives</a>
+            <a href="#">Contacts & Accès</a>
+        </nav>
+    
+        <hr>
+    
+        <div class="contact">
+            <h3>Nous suivre</h3>
+            <p>70300 Héricourt</p>
+            <p>03 83 65 42 16</p>
+            <p>cine-echos.contact@gmail.com</p>
+        </div>
+    
+        <hr>
+    
+        <div class="social">
+            <h3>Nous suivre</h3>
+            <div class="social-icons">
+                <a href="#"><img src="/assets/instagram 1.svg" alt="Instagram"></a>
+                <a href="#"><img src="/assets/X.svg" alt="X"></a>
+                <a href="#"><img src="/assets/facebook 1.svg" alt="Facebook"></a>
+                <a href="#"><img src="/assets/youtube 1.svg" alt="YouTube"></a>
             </div>
         </div>
     </footer>
-
-    <script>
-        document.getElementById('info-btn').addEventListener('click', () => {
-            alert('Informations sur le festival.');
-        });
-
-        document.getElementById('search-btn').addEventListener('click', () => {
-            alert('Fonction de recherche à venir !');
-        });
-
-        document.getElementById('menu-btn').addEventListener('click', () => {
-            alert('Menu principal.');
-        });
-    </script>
 </body>
 
 </html>
